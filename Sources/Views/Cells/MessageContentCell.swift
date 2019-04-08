@@ -208,6 +208,7 @@ open class MessageContentCell: MessageCollectionViewCell {
             break
         }
 
+        print("avatar frame \(CGRect(origin: origin, size: attributes.avatarSize))")
         avatarView.frame = CGRect(origin: origin, size: attributes.avatarSize)
     }
 
