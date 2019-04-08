@@ -7,24 +7,27 @@ PODS:
 
 DEPENDENCIES:
   - MessageInputBar (from `https://github.com/MessageKit/MessageInputBar.git`, branch `master`)
-  - MessageKit (from `../`)
+  - MessageKit (from `https://github.com/Mahipal-codzgarage/MessageKit.git`)
 
 EXTERNAL SOURCES:
   MessageInputBar:
     :branch: master
     :git: https://github.com/MessageKit/MessageInputBar.git
   MessageKit:
-    :path: "../"
+    :git: https://github.com/Mahipal-codzgarage/MessageKit.git
 
 CHECKOUT OPTIONS:
   MessageInputBar:
     :commit: faebe27f2dd8f39ea145e75b7296ef48133c099a
     :git: https://github.com/MessageKit/MessageInputBar.git
+  MessageKit:
+    :commit: 159f42e6d6acfc3906890a9205045f7f69bff0a0
+    :git: https://github.com/Mahipal-codzgarage/MessageKit.git
 
 SPEC CHECKSUMS:
   MessageInputBar: e81c7535347f1f7b923de7080409a535a004b6e4
-  MessageKit: e86b06ad2eb2d4ddea3ba29c4d9d13edf78843d1
+  MessageKit: 29c1c87e5a396d2ca7a3f712e5171dc9aba42a1e
 
-PODFILE CHECKSUM: 04c1a805e1997e83bacab1a34787e71e9fe4432b
+PODFILE CHECKSUM: e0760f30a8b4c220a89d00ea833e3e2e30d99313
 
 COCOAPODS: 1.5.3
